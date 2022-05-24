@@ -13,11 +13,6 @@ internal class Program
 
         Console.WriteLine(firstName + " " + lastName);
     }
-
-
-
-    
-
 }
 
 
