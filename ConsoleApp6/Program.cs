@@ -16,15 +16,11 @@ namespace ConsoleApp7
             Console.WriteLine("количество картинок");
             numberPictures = Convert.ToInt32(Console.ReadLine());
             
-            int rows = numberPictures / photoInRow;
+            int fullRows = numberPictures / photoInRow;
             int remainderPhoto = numberPictures % photoInRow;
-            string enter = " количество рядов- " + rows + " сверх меры- " + remainderPhoto + " картинка";
+            string enter = " количество рядов- " + fullRows + " сверх меры- " + remainderPhoto + " картинка";
 
             Console.WriteLine(enter);
         }
-
-         
-    
     }
-
 }
